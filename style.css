@@ -1,0 +1,254 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* common css */
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+
+.gap-1 {
+  gap: 16px;
+}
+.gap-2 {
+  gap: 25px;
+}
+.gap-3 {
+  gap: 32px;
+}
+.gap-5 {
+  gap: 64px;
+}
+.list-none {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* left section  */
+.adrian-stefan-main {
+  flex-direction: column;
+  align-items: center;
+}
+.main-dashbord {
+  background: #111827;
+  width: 350px;
+  height: 1633px;
+}
+.dashbord-main-content {
+  width: 1640px;
+  background-color: #f9fafc;
+}
+.dash-bord-content {
+  padding: 30px 16px;
+}
+
+.top-buttom-text-icon h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: #ffffff;
+  padding: 0 0 0 15px;
+}
+.top-buttom-text-icon p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #9ca3af;
+  padding: 0 0 0 15px;
+}
+
+.top-buttom-icon {
+  margin-left: 115px;
+}
+
+.top-buttom-text {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.list-items {
+  margin-top: 20px;
+}
+.list-items ul li {
+  padding: 10px 0;
+}
+.list-items ul li a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.right-list-section {
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(31, 41, 55, 0.06),
+    0px 4px 6px rgba(100, 116, 139, 0.12);
+}
+@media (min-width: 1400px) {
+  .adrian-stefan-main {
+    flex-direction: row;
+  }
+}
+/* adrian-stefan-right */
+
+.adrian-stefan-main {
+  background: #f9fafb;
+}
+.adrian-stefan-main {
+  margin-top: 64px;
+}
+/* .adrian-stefan-main-right {
+  margin-top: 64px;
+} */
+.adrian-stefan-right {
+  width: 368px;
+  height: 314px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(100, 116, 139, 0.06),
+    0px 1px 2px rgba(100, 116, 139, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0;
+}
+.adrian-stefan-right h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 137.5%;
+  color: #111827;
+  padding: 0 0 10px 0;
+}
+.adrian-stefan-right p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #6b7280;
+}
+.adrian-stefan-right .upload-btn {
+  border-top: 1px solid #e6e8f0;
+  margin-top: 30px;
+}
+.adrian-stefan-right .upload-btn .upload-btn-contant {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5048e5;
+  background: none;
+  border: none;
+  margin-top: 21px;
+  cursor: pointer;
+}
+.adrian-stefan-right img {
+  padding: 30px 0;
+}
+/* adrian-stefan-main-left */
+.adrian-stefan-left {
+  width: 752px;
+  height: 435px;
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(100, 116, 139, 0.06),
+    0px 1px 2px rgba(100, 116, 139, 0.1);
+  border-radius: 8px;
+  /* padding: 0 23px; */
+}
+/* label */
+label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #6b7280;
+}
+input[type="text"] {
+  all: unset;
+  width: 310px;
+  height: 38px;
+  padding-left: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #fff;
+  box-sizing: border-box;
+  outline: 0.1px solid #e6e8f0;
+  margin: 0 0 20px 0;
+}
+hr {
+  width: 752px;
+  height: 1px;
+  margin-top: -170px;
+  background: #e6e8f0;
+}
+form {
+  padding: 0 23px;
+}
+/* .adrian-stefan-left {
+  margin-top: 30px;
+} */
+.adrian-stefan-main-left {
+  margin-top: 30px;
+}
+.main-last-btn .last-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 8px 20px;
+  background: #5048e5;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.main-last-btn {
+  margin-top: 30px;
+  margin-left: 590px;
+}
